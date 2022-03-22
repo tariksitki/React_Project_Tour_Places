@@ -1,0 +1,21 @@
+
+.cards-div {
+    padding: 4rem;
+    display: flex;
+    
+}
+
+
+.card {
+    width: 20rem;
+    height: 18rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+
+}
+
+.image {
+    width: 100%;
+
+}

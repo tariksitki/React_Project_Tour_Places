@@ -1,17 +1,17 @@
 
 import './App.css';
 import Headers from "./components/Headers/Headers";
-import data from "./data";
+import {data} from "./data";
+import Card from "./components/Cards/Card";
 
 function App() {
+  console.log(data);
   return (
     <div >
         <Headers />
+        <Card />
+          
 
-          {/* cards */}
-          <div className = "cards-div">
-              
-          </div>
     </div>
   );
 }
