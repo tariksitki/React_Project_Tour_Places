@@ -7,9 +7,9 @@ const Card = () => {
       {data.map(({ title, desc, id, image }) => {
         return (
           <div className="card" key={id}>
-            <h1>{title}</h1>
-            <nav>
-              <img src={image} alt="" />
+            <h2>{title}</h2>
+            <nav className="card-box">
+              <img className="image" src={image} alt="" />
               <div className="overlay">
                 <div className="text">{desc}</div>
               </div>
