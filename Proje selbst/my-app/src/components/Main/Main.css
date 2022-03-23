@@ -1,0 +1,11 @@
+
+
+.main-container {
+    /* background-color: bisque; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3%;
+    margin-top: 3vh;
+}
