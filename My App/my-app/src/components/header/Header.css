@@ -35,6 +35,16 @@
 
 .navbar h3 {
     font-weight: 600;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width:850px) {
+    .navbar-innerDiv {
+        width: 70%;
+    }
+    .navbar h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width:650px) {
@@ -42,11 +52,11 @@
         width: 70%;
     }
     .navbar h3 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:520px) {
     .navbar-innerDiv {
         width: 75%;
     }
